@@ -12,9 +12,9 @@ import { TuyaContext } from '../src';
  */
 
 const context = new TuyaContext({
-  baseUrl: '',
-  accessKey: '',
-  secretKey: '',
+  baseUrl: 'https://openapi.tuyacn.com',
+  accessKey: '5eqja875jhmehqdjs7mq',
+  secretKey: 'f1bd14633e5c4c8d9f4b069fbe30ee0a',
 });
 
 const main = async () => {
