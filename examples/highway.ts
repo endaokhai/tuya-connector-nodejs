@@ -1,5 +1,5 @@
 import * as qs from 'qs';
-import * as crypto from 'crypto';
+import * as crypto from 'crypto-js';
 import { default as axios } from 'axios';
 
 

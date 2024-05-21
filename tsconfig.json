@@ -10,7 +10,9 @@
     "removeComments": false,
     "esModuleInterop": true,
     "lib": ["es2015", "dom"],
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "types": [ "node","jest","mocha" ],
+
   },
   "include": [
     "src"
